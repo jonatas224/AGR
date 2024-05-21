@@ -1,0 +1,41 @@
+h1 {
+  color: blue;
+}
+.flex {
+  background-color: aqua;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+}
+.container-flex {
+  display: flex;
+}
+.container-flex-direction{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex-direction-row{
+display: flex;
+flex-direction: row;
+}
+.flex-direction-row-reverse{
+flex-direction: row-reverse;
+}
+.flex-direction-colum{
+flex-direction: column;
+}
+.flex-direction-colum-reverse{
+flex-direction: column-reverse;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-end;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,89 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    border: px solid rgb(53, 94, 155);
+    width: 100%;
+    height: 100px;
+    background-color: rgb(53, 94, 155);;
+}
+    
+
+
+
+main{
+    background-color: antiquewhite;
+    padding-top: 1;
+}
+
+footer{
+    background-color:blue;
+    color: aliceblue;
+}
+h1{
+    color: blue;
+}
+p{
+    color: brown;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+    
+}
+.tituloprincipal{
+    color: blueviolet;
+    border: 1px solid red;
+    margin: 16px;
+    padding: 20px;
+}
+.paragrafoprincipal{
+    color: brown;
+    background-color: aqua;
+    max-width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* box */
+h2{
+    text-align: center;
+
+}
+.contanier{
+    border: 2px solid black;
+    height:200px ;
+    width: 800px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.box2{
+    border: 2px solid rgb(224, 14, 161);
+    width: 200px;
+    height: 200px;
+    background-color:rgb(224, 14, 161) ;
+}
+.box3{
+    border: 2px solid rgb(13, 228, 95);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 228, 95);;
+}
+.box4{
+    
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+
